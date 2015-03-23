@@ -4,22 +4,18 @@ public final class Main
 {
 	public static void main(String args[])
 	{
-		NumberList list=new NumberList();
+		Main list=new Main();
 		list.Run();
 		return;
 	}
-}
 
-final class NumberList 
-{
-	
 	public void Run()
 	{
 		int T;
 		Scanner in=new Scanner(System.in);
 		T=in.nextInt();
 		int answer[]=new int[T];
-		
+
 		for(int i=0; i<T; ++i)
 		{
 			int N,K,max=0,maxx=0;
@@ -40,7 +36,7 @@ final class NumberList
 		for(int k=0; k<T; ++k)
 			System.out.println(answer[k]);
 	}
-	
+
 	private int shashank(Vector<Integer> v, int K)
 	{
 		int maxx=0;
