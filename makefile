@@ -12,8 +12,7 @@ all: $(TARGET)
 
 #CFLAGS = -O2 -Wall -std=c11 -faggressive-loop-optimizations\
 #	-ftree-vectorize
-CPPFLAGS = -O2 -Wall -std=c++11 -faggressive-loop-optimizations\
-	-ftree-vectorize
+CPPFLAGS = -O2 -Wall -std=c++11
 
 OBJS = stringFunctionCalculation.o
 
